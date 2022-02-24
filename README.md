@@ -1,9 +1,9 @@
 # C# Console Applications App01 to App05
 | Author | Details |
 | ---- | ---- |
-**Name**: | Student Name  |
-**Student ID**: | 12345678 |
-**Course:** | Computing |
+**Name**: | Renato Martins  |
+**Student ID**: | 22137731 |
+**Course:** | Cyber Security |
 **Module**: | CO453     |
 **Started**: | January 2021 |    
 

@@ -208,10 +208,10 @@ namespace ConsoleAppProject.App02
             Console.WriteLine("===================================");
             Console.WriteLine("=WHO Weight Status      BMI kg/m^2=");
             Console.WriteLine("=Underweight               < 18.50=");
-            Console.WriteLine("=Normal	              18.5 - 24.9=");
-            Console.WriteLine("=Overweight	          25.0 - 29.9=");
+            Console.WriteLine("=Normal	               18.5 - 24.9=");
+            Console.WriteLine("=Overweight	       25.0 - 29.9=");
             Console.WriteLine("=Obese Class I         30.0 - 34.9=");
-            Console.WriteLine("=Obese Class II	      35.0 - 39.9=");
+            Console.WriteLine("=Obese Class II	       35.0 - 39.9=");
             Console.WriteLine("=Obese Class III           >= 40.0=");
             Console.WriteLine("===================================");
         }

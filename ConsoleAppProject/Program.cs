@@ -1,5 +1,6 @@
 ﻿using ConsoleAppProject.App01;
 using ConsoleAppProject.App02;
+using ConsoleAppProject.App03;
 using ConsoleAppProject.Helpers;
 using System;
 
@@ -25,6 +26,7 @@ namespace ConsoleAppProject
         {
             Console.WriteLine("1) App01 Distance Converter");
             Console.WriteLine("2) App02 BMI");
+            Console.WriteLine("3) App03 Students Grades");
             string choice = Console.ReadLine();
 
             if (choice == "1")
@@ -36,6 +38,11 @@ namespace ConsoleAppProject
             {
                 BMI bmi = new BMI();
                 bmi.Run();
+            }
+            else if (choice == "3")
+            {
+                StudentGrades app = new StudentGrades();
+                app.Run();
             }
             else
             {

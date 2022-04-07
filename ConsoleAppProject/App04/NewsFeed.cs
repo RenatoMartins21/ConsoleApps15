@@ -1,78 +1,52 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.Linq;
 
 namespace ConsoleAppProject.App04
 {
-    ///<summary>
-    /// The NewsFeed class stores news posts for the news feed in a social network 
-    /// application.
-    /// 
-    /// Display of the posts is currently simulated by printing the details to the
-    /// terminal. (Later, this should display in a browser.)
-    /// 
-    /// This version does not save the data to disk, and it does not provide any
-    /// search or ordering functions.
-    ///</summary>
-    ///<author>
-    ///  Michael Kölling and David J. Barnes
-    ///  version 0.1
-    ///</author> 
+    /// <author>
+    /// Renato Martins
+    /// version 1
+    /// </author>
+
+    // This class stores posts on the social network
     public class NewsFeed
     {
-        private readonly List<MessagePost> messages;
-        private readonly List<PhotoPost> photos;
+        public const string AUTHOR = "CyberUK";
+        public List<Post> Posts { get; }
+        public int itemNumber;
 
-        ///<summary>
-        /// Construct an empty news feed.
-        ///</summary>
+        // Create the news feed:
         public NewsFeed()
         {
-            messages = new List<MessagePost>();
-            photos = new List<PhotoPost>();
+            // Create a list called Posts:
+            Posts = new List<Post>();
+            // Create a MessagePost:
+            MessagePost post = new MessagePost(AUTHOR, "Say everything is great, with the fakest smile hanging' out of my face. I'm done.");
+            AddPost(post);
+            // Create a PhotoPost
+            PhotoPost photopost = new PhotoPost(AUTHOR, "AnimeWaifu.png", "Best Waifu");
+            AddPost(photopost);
         }
 
-
-        ///<summary>
-        /// Add a text post to the news feed.
-        /// 
-        /// @param text  The text post to be added.
-        ///</summary>
-        public void AddMessagePost(MessagePost message)
+        // Calls the Posts from above to be added:
+        public void AddPost(Post post)
         {
-            messages.Add(message);
+            Posts.Add(post);
         }
 
-        ///<summary>
-        /// Add a photo post to the news feed.
-        /// 
-        /// @param photo  The photo post to be added.
-        ///</summary>
-        public void AddPhotoPost(PhotoPost photo)
-        {
-            photos.Add(photo);
-        }
-
-        ///<summary>
-        /// Show the news feed. Currently: print the news feed details to the
-        /// terminal. (To do: replace this later with display in web browser.)
-        ///</summary>
+        // Display the current News Feed with the posts:
         public void Display()
         {
-            // display all text posts
-            foreach (MessagePost message in messages)
+            // show all posts
+            foreach (var (item, index) in Posts.Select((value, i) => (value, i)))
             {
-                message.Display();
-                Console.WriteLine();   // empty line between posts
-            }
-
-            // display all photos
-            foreach (PhotoPost photo in photos)
-            {
-                photo.Display();
-                Console.WriteLine();   // empty line between posts
+                itemNumber = index + 1;
+                Console.WriteLine("    =========================");
+                Console.WriteLine($"    Post number {itemNumber}");
+                item.Display();
+                Console.WriteLine();
             }
         }
     }
-
 }

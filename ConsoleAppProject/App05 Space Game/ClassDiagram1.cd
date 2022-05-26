@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MonoGame.Component">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Component.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonoGame.Program">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonoGame.Game1">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEEAAAAAABwAAAAAAAAAABAAABAgABAAAAAACABQ=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonoGame.States.State">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgABAABAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>States\State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonoGame.States.MenuState">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAIgAAAABAIABAAACAAAAACAAAAAAAAAQ=</HashCode>
+      <FileName>States\MenuState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonoGame.States.HighscoresState">
+    <Position X="6" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAAAAAIgAAAABAAAAAAACAAAAAAAAAgAAAAAQ=</HashCode>
+      <FileName>States\HighscoresState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonoGame.States.GameState">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYgAAAAAAAAAgABABBAAAAAABCAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>States\GameState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonoGame.Sprites.Sprite">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAQAAQCAAoAxAAAEQAYBAAAwAAAEAAAggBgAALA=</HashCode>
+      <FileName>Sprites\Sprite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MonoGame.Sprites.Ship">
+    <Position X="4.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAACAAAAAAABAAAAAAAAAABAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Sprites\Ship.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MonoGame.Sprites.Player">
+    <Position X="2.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAAABBAggAAAAAEAAAFAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprites\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonoGame.Sprites.Explosion">
+    <Position X="4.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprites\Explosion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonoGame.Sprites.Enemy">
+    <Position X="4.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAwAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprites\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonoGame.Sprites.Bullet">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAgAAAAAAgAAAAAAAAAAAEAAAAAAAABAAAAAAEAAA=</HashCode>
+      <FileName>Sprites\Bullet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MonoGame.Models.Score">
+    <Position X="9.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Models\Score.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonoGame.Models.Input">
+    <Position X="6" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAABAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
+      <FileName>Models\Input.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonoGame.Models.Animation">
+    <Position X="7.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAABBACAAAAAAAAIIAAAAADA=</HashCode>
+      <FileName>Models\Animation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MonoGame.Managers.ScoreManager">
+    <Position X="9.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgIAAAABAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Managers\ScoreManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonoGame.Managers.EnemyManager">
+    <Position X="11.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAASAgAAAAAAAAAIQAAAAAAQAAAAAAAAAQAAA=</HashCode>
+      <FileName>Managers\EnemyManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonoGame.Managers.AnimationManager">
+    <Position X="11.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAgAoAgAAIAAAAAgAAAAAAEoAAAAAgAADA=</HashCode>
+      <FileName>Managers\AnimationManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MonoGame.Controls.Button">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAwAAAAAAQAAAgAgAAAAAAAAAAqgACAEAAAACAgAAgA=</HashCode>
+      <FileName>Controls\Button.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MonoGame.Sprites.ICollidable">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprites\ICollidable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
